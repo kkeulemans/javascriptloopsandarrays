@@ -6,7 +6,7 @@
 // Hoera!
 // ==========================================
 for (let i = 0; i < 3; i++) {
-    console.log("Hoera!")
+    console.log("Hoera!");
 }
 
 
@@ -18,11 +18,11 @@ for (let i = 0; i < 3; i++) {
 // loop...
 // loop...
 // klaar!
- // ==========================================
+// ==========================================
 for (let i = 0; i < 4; i++) {
-    console.log("loop...")
+    console.log("loop...");
 }
-console.log("Klaar!")
+console.log("Klaar!");
 
 
 // ==========================================
@@ -37,12 +37,12 @@ console.log("Klaar!")
 
 for (let i = 0; i < 16; i++) {
     console.log(i)
-    let even = i % 2 === 0
+    let even = i % 2 === 0;
     if (even){
-        console.log("even")
+        console.log("even");
     }
     else {
-        console.log("oneven")
+        console.log("oneven");
     }
 
 }
@@ -67,3 +67,14 @@ for (let i = 0; i < 16; i++) {
 // >> 9
 // ==========================================
 
+for (let i = 0; i < 10; i++) {
+     if (i >= 3 && i< 6){
+        console.log("> "+ i);
+    }
+     else if (i >= 6){
+            console.log(">> "+i);
+     }
+    else {
+        console.log(i);
+    }
+}

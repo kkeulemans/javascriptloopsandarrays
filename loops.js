@@ -5,7 +5,9 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!")
+}
 
 
 // ==========================================
@@ -17,7 +19,10 @@
 // loop...
 // klaar!
  // ==========================================
-
+for (let i = 0; i < 4; i++) {
+    console.log("loop...")
+}
+console.log("Klaar!")
 
 
 // ==========================================
@@ -30,6 +35,17 @@
 // .... etc.
 // 15 is oneven
 
+for (let i = 0; i < 16; i++) {
+    console.log(i)
+    let even = i % 2 === 0
+    if (even){
+        console.log("even")
+    }
+    else {
+        console.log("oneven")
+    }
+
+}
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
 
